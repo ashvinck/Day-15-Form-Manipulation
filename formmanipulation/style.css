@@ -1,0 +1,24 @@
+body{
+    padding: 5%;
+    border: 5%;
+    background-color: rgba(47,61,70,255);
+}
+h5, h1 , p{
+    text-align: center;
+}
+form{
+    padding: 5%;
+    background-color: rgba(202,210,197,255);
+}
+.btn{
+    background-color: rgba(47,61,70,255);
+    padding: 5%;
+    
+}
+.t1 {
+    counter-reset: serial-number; /* Set the serial number counter to 0 */
+   }
+.t1 td:first-child:before {
+    counter-increment: serial-number; /* Increment the serial number counter */
+    content: counter(serial-number); /* Display the counter */
+   }
